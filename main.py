@@ -169,12 +169,12 @@ def main():
     
     # Mode interaktif
     print("Interpreter Persamaan Linier 1 Variabel")
-    print("Ketik 'keluar' untuk mengakhiri")
+    print("Ketik 'exit' untuk mengakhiri")
     
     while True:
-        equation = input("\nMasukkan persamaan (contoh: 3x + 5 = 20): ")
+        equation = input("\nMasukkan persamaan")
         
-        if equation.lower() == 'keluar':
+        if equation.lower() == 'exit':
             break
         
         result = interpreter.interpret(equation)
