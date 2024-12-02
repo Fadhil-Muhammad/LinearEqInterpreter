@@ -172,7 +172,7 @@ def main():
     print("Ketik 'exit' untuk mengakhiri")
     
     while True:
-        equation = input("\nMasukkan persamaan")
+        equation = input("\nMasukkan persamaan = ")
         
         if equation.lower() == 'exit':
             break
